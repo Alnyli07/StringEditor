@@ -21,7 +21,7 @@ String Editor, add, remove  any part of string.
 		stringEditor.start(sourceString); // start editing
 		stringEditor.addFrom(' js ', 'JavaScript'); // ' js ' add first 'JavaScript'
 		stringEditor.go('\n'); // copy from current index  to '\n'.
-		stringEditor.jump('\n', 2); // copy from current index 2 times to '\n'.
+		stringEditor.jump('\n', 2); // don't copy from current index 2 times to '\n'. (likes remove)
 		stringEditor.go('\n'); // again copy  from current index to '\n'.
 		stringEditor.addStr(' STRING_EDITOR\n\t'); // add to current index
 		stringEditor.addFrom(' JS ', 'JavaScript'); // add to  from current index to  'JavaScript'
