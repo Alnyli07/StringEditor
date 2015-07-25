@@ -1,28 +1,29 @@
 {
-  "name": "string_editor",
-  "version": "1.0.0",
-  "description": "string edit with add, jump, go operations.",
-  "main": "index.js",
-  "directories": {
-    "test": "test"
-  },
-  "scripts": {
-    "test": "node test/test.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Alnyli07/StringEditor.git"
-  },
-  "keywords": [
-    "string",
-    "editor",
-    "edit",
-    "string"
-  ],
-  "author": "ali tugrul",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Alnyli07/StringEditor/issues"
-  },
-  "homepage": "https://github.com/Alnyli07/StringEditor#readme"
+	"name": "string_editor",
+	"version": "1.0.3",
+	"description": "string edit with add, jump, go operations.",
+	"main": "index.js",
+	"directories": {
+		"test": "test"
+	},
+	"scripts": {
+		"test": "node test/test.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Alnyli07/StringEditor.git"
+	},
+	"keywords": [
+		"string",
+		"editor",
+		"edit",
+		"string",
+		"builder"
+	],
+	"author": "ali tugrul",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/Alnyli07/StringEditor/issues"
+	},
+	"homepage": "https://github.com/Alnyli07/StringEditor#readme"
 }
