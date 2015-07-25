@@ -3,8 +3,9 @@
 		npm install string_editor
 
 #Example code
-```js
+
 String Editor, add, remove  any part of string.
+```js
 		var stringEditor = require('string_editor');
 
 		var stringEditor = new stringEditor();
