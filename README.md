@@ -3,6 +3,10 @@
 		npm install string_editor
 
 #usage
+ JavaScript:
+
+#Example code
+```js
 String Editor, add, remove  any part of string.
 		var stringEditor = require('string_editor');
 
@@ -26,3 +30,4 @@ String Editor, add, remove  any part of string.
 		var res = stringEditor.finish(); // finish build returns new string.
 
 		console.log('\n----START RESULT_STRING ----\n' + res + '\n----END RESULT_STRING ----\n');
+```
