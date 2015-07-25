@@ -3,7 +3,7 @@
 		npm install string_editor
 
 #usage
- JavaScript:
+
 
 #Example code
 ```js
