@@ -1,10 +1,12 @@
+
+String Editor, add, remove  any part of string.
+
 # Install
 
 		npm install string_editor
 
-#Example code
+# Example code
 
-String Editor, add, remove  any part of string.
 ```js
 		var stringEditor = require('string_editor');
 
@@ -28,4 +30,12 @@ String Editor, add, remove  any part of string.
 		var res = stringEditor.finish(); // finish build returns new string.
 
 		console.log('\n----START RESULT_STRING ----\n' + res + '\n----END RESULT_STRING ----\n');
+		// output:
+		/* ----START RESULT_STRING ----
+		*  JavaScript js  is one of the 3 languages all web developers must learn: 
+		*	  3. JavaScript to program the behavior of web pages 
+ 		*  STRING_EDITOR
+		*	  This tutorial is about JavaScript JS , and how JavaScript works with HTML and CSS.
+		*  ----END RESULT_STRING ----
+		*/
 ```
