@@ -1,3 +1,9 @@
+
+[![Build Status][travis-ci-png]][travis-ci-site]
+[travis-ci-png]: https://travis-ci.org/Alnyli07/StringEditor.svg
+[travis-ci-site]: https://travis-ci.org/Alnyli07/StringEditor
+
+
 # Install
 
 		npm install string_editor
