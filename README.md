@@ -1,6 +1,6 @@
 
 String Editor, add, remove  any part of string.
-=========
+
 <img src='https://travis-ci.org/Alnyli07/StringEditor.svg?branch=master'></img>
 
 # Install
