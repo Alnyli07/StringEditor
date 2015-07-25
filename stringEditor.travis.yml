@@ -1,11 +1,13 @@
 language: node_js
 node_js:
-  - "0.12"
-  - "0.11"
   - "0.10"
-  - "0.8"
-  - "0.6"
-  - "iojs"
-  - "iojs-v1.0.4"
-
-  npm run test
+  - "0.12"
+  - iojs
+sudo: false
+install: (cd nodejs && npm install)
+script: 
+  - (cd nodejs && npm test)
+notifications:
+  email:
+    on_success: change
+    on_failure: change
