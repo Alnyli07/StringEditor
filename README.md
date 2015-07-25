@@ -1,9 +1,7 @@
 
 String Editor, add, remove  any part of string.
-
-[![Build Status][travis-ci-png]][travis-ci-site]
-[travis-ci-png]: https://travis-ci.org/Alnyli07/StringEditor.svg?branch=master
-[travis-ci-site]:https://travis-ci.org/Alnyli07/StringEditor
+=========
+<img src='https://travis-ci.org/Alnyli07/StringEditor.svg?branch=master'></img>
 
 # Install
 
