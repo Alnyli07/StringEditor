@@ -1,6 +1,6 @@
 {
 	"name": "string_editor",
-	"version": "1.1.4",
+	"version": "1.1.5",
 	"description": "string edit with add, jump, go operations.",
 	"main": "index.js",
 	"directories": {
