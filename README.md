@@ -1,7 +1,9 @@
 
 String Editor, add, remove  any part of string.
 
-<img src='https://travis-ci.org/Alnyli07/StringEditor.svg?branch=master'></img>
+[![Build Status](https://travis-ci.org/Alnyli07/StringEditor.svg?branch=master)](https://travis-ci.org/Alnyli07/StringEditor)
+
+[![NPM](https://nodei.co/npm/string_editor.png?downloads=true)](https://www.npmjs.com/package/string_editor)
 
 # Install
 
