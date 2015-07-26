@@ -1,6 +1,6 @@
 {
 	"name": "string_editor",
-	"version": "1.1.5",
+	"version": "1.1.6",
 	"description": "string edit with add, jump, go operations.",
 	"main": "index.js",
 	"directories": {
@@ -25,5 +25,5 @@
 	"bugs": {
 		"url": "https://github.com/Alnyli07/StringEditor/issues"
 	},
-	"homepage": "https://github.com/Alnyli07/StringEditor#README.md"
+	"homepage": "https://github.com/Alnyli07/StringEditor"
 }
