@@ -12,9 +12,8 @@ String Editor, add, remove  any part of string.
 # Example code
 
 ```js
-var stringEditor = require('string_editor');
-
-var stringEditor = new stringEditor();
+var StringEditor = require('string_editor');
+var stringEditor = new StringEditor();
 
 var sourceString = ' JavaScript is one of the 3 languages all web developers must learn: \n' +
 	'\t1. HTML to define the content of web pages \n' +
