@@ -10,12 +10,21 @@ var sourceString = ' JavaScript is one of the 3 languages all web developers mus
 console.log('\n----START SOURCE_STRING ----\n' + sourceString + '\n----END SOURCE_STRING ----\n');
 
 stringEditor.start(sourceString);
-stringEditor.addFrom(' js ', 'JavaScript');
-stringEditor.go('\n');
-stringEditor.jump('\n', 2);
-stringEditor.go('\n');
+console.log(stringEditor.addFrom(' js ', 'JavaScript'));
+console.log(stringEditor.go('\n'));
+console.log(stringEditor.jump('\n', 2));
+console.log(stringEditor.go('\n'));
 stringEditor.addStr(' STRING_EDITOR\n\t');
-stringEditor.addFrom(' JS ', 'JavaScript');
-var res = stringEditor.finish();
+console.log(stringEditor.addFrom(' JS ', 'JavaScript'));
+var res = stringEditor.update();
+
+console.log('\n----START RESULT_STRING ----\n' + res + '\n----END RESULT_STRING ----\n');
+
+console.log(stringEditor.remove('JavaScript', 'CSS'));
+console.log(stringEditor.addFrom('CSS', 'JavaScript'));
+console.log(stringEditor.jump('\n', 2));
+console.log(stringEditor.go('\n', 3));
+stringEditor.addStr(' STRING_EDITOR\n\t');
+res = stringEditor.finish();
 
 console.log('\n----START RESULT_STRING ----\n' + res + '\n----END RESULT_STRING ----\n');
